@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="41.703" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Project Document" name="Amazon Userid test" time="35.516">
+<system-out><![CDATA[
+Given browser "chrome" is open with url "https://www.amazon.in/"............passed
+And i click signin..........................................................passed
+When I enter valid userid "paragguide@yahoo.co.in"..........................passed
+And click continue button...................................................passed
+Then I validate the userid..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Project Document" name="Signin" time="5.955">
+<system-out><![CDATA[
+Given i open browser "chrome" and enter url "https://www.amazon.in".........passed
+And clicked sigin link......................................................passed
+When i click new user.......................................................passed
+Then Registration form shuold open..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
